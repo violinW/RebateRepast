@@ -6,6 +6,7 @@ public class SystemDBConfig {
     public String user = "root";
     public String password = "violin";
     public String port = "3306";
+    public String dbName = "RebateRepast";
     public boolean supportBigNumbers = true;
     public boolean bigNumberStrings = true;
 }

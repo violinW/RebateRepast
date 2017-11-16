@@ -5,5 +5,7 @@
 	<classpathentry kind="src" path="db"/>
 	<classpathentry kind="src" path="databaseAccess"/>
 	<classpathentry kind="src" path="config"/>
+	<classpathentry kind="src" path="libs"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-5.1.44-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
