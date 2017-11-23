@@ -59,6 +59,7 @@ public class memberDao implements memberInterface {
 		
 		String sql = "update from BDMember where UUID = '" + dt_UUID + "set name = '" + dt.name + "', phone = '" + dt.phone + "', sex = '" + dt.sex + "', yunpay_account = '"
 		+ dt.yunpay_account + "', self_recommend = " + dt.self_recommend + ", Recommended_account = '" + dt.Recommended_account + "'";
+		
 		try {
 			DbAccess acc = new DbAccess();
 			// statement用来执行SQL语句
